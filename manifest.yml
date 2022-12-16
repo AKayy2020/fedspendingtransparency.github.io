@@ -3,5 +3,6 @@ applications:
 - name: data-act
   memory: 64M
   buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
-  env:
+
+  env: clark
     FORCE_HTTPS: true
